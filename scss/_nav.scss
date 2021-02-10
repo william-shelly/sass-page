@@ -1,0 +1,19 @@
+nav {
+    ul {
+        margin: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                display: inline-block;
+                margin: .625rem;
+                padding: .3125rem .825rem;
+                text-decoration: none;
+                color: $color-primary;
+            }
+            a:hover {
+                color: #444;
+            }
+        }
+    }
+}

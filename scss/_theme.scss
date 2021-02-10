@@ -1,0 +1,34 @@
+$font-stack: Helvetica, sans-serif;
+$color-primary: #D62828;    // Crimson Red PC 924
+$color-secondary: #F77F00;  // Sunburst Yellow PC 917
+$color-tri: #FCBF49;        // Goldenrod PC 1034
+$color-four: #EAE2B7;       // Ginger Root PC 1084
+$color-gray: #003049;       // Cool Gray C10
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+body {
+    font: 100% $font-stack;
+    background-color: #efefef;
+}
+
+#hero-area {
+    border-radius: (.625rem);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/max-O_TVsaeZNlE-unsplash.jpg);
+    background-size: cover;
+}
+
+.box-shadow-black-30 {
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
