@@ -31,7 +31,8 @@ nav ul {
       margin: .625rem;
       padding: .3125rem .825rem;
       text-decoration: none;
-      color: #D62828; }
+      color: #D62828;
+      transition: all .3s ease-in-out; }
     nav ul li a:hover {
       color: #444; }
 
@@ -45,7 +46,8 @@ nav ul {
   -webkit-border-radius: 0.425rem;
   -moz-border-radius: 0.425rem;
   -ms-border-radius: 0.425rem;
-  border-radius: 0.425rem; }
+  border-radius: 0.425rem;
+  transition: all .3s ease-in-out; }
 
 .button:hover, .button-primary:hover, .button-primary-xl:hover, .button-secondary:hover, .button-secondary-xl:hover {
   color: #fff; }
@@ -70,8 +72,7 @@ nav ul {
 .button-secondary-xl {
   margin: .625rem;
   padding: .625rem;
-  font-size: 1.25rem;
-  transition: transform .3s ease-in-out; }
+  font-size: 1.25rem; }
 
 .button-secondary-xl:hover {
-  transform: scale(1.25); }
+  transform: scale(1.1); }

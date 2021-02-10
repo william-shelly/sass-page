@@ -10,6 +10,7 @@ nav {
                 padding: .3125rem .825rem;
                 text-decoration: none;
                 color: $color-primary;
+                transition: all .3s ease-in-out;
             }
             a:hover {
                 color: #444;

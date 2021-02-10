@@ -6,6 +6,7 @@
     color: #efefef;
     background-color: $color-gray;
     @include border-radius(.425rem);
+    transition: all .3s ease-in-out;
 }
 
 .button:hover {
@@ -41,9 +42,8 @@
     margin: .625rem;
     padding: .625rem;
     font-size: 1.25rem;
-    transition: transform .3s ease-in-out;
 }
 
 .button-secondary-xl:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
