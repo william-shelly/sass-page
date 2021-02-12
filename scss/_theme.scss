@@ -4,6 +4,7 @@ $color-secondary: #F77F00;  // Sunburst Yellow PC 917
 $color-tri: #FCBF49;        // Goldenrod PC 1034
 $color-four: #EAE2B7;       // Ginger Root PC 1084
 $color-gray: #003049;       // Cool Gray C10
+$color-blue: #caf0f8; // color blue
 
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
