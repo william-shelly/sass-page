@@ -16,11 +16,11 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); }
 
 .text-shadow-30 {
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); }
+  text-shadow: 0 0 10px rgba(6, 21, 91, 0.9); }
 
 h1 {
   font-size: 3rem;
-  color: #caf0f8; }
+  color: #fba72e; }
 
 nav ul {
   margin: 0;
