@@ -1,4 +1,4 @@
-nav {
+@mixin horizontal-list {
     ul {
         margin: 0;
         list-style: none;
@@ -17,4 +17,8 @@ nav {
             }
         }
     }
+}
+
+nav {
+    @include horizontal-list;
 }
